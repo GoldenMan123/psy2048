@@ -48,9 +48,9 @@ input {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 30px;
   font-weight: bold;
-  margin: 0;
+  margin: 15px;
   display: block;
   float: left; }
 
@@ -229,7 +229,7 @@ hr {
     font-weight: bold;
     height: 60px;
     line-height: 60px;
-    margin-top: 222px; }
+    margin-top: 150px; }
   .game-message .lower {
     display: block;
     margin-top: 29px; }
@@ -265,20 +265,6 @@ hr {
       display: inline-block; }
   .game-message.game-won, .game-message.game-over {
     display: block; }
-    .game-message.game-won p, .game-message.game-over p {
-      -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
-      -moz-animation: slide-up 1.5s ease-in-out 2500ms;
-      animation: slide-up 1.5s ease-in-out 2500ms;
-      -webkit-animation-fill-mode: both;
-      -moz-animation-fill-mode: both;
-      animation-fill-mode: both; }
-    .game-message.game-won .mailing-list, .game-message.game-over .mailing-list {
-      -webkit-animation: fade-in 1.5s ease-in-out 2500ms;
-      -moz-animation: fade-in 1.5s ease-in-out 2500ms;
-      animation: fade-in 1.5s ease-in-out 2500ms;
-      -webkit-animation-fill-mode: both;
-      -moz-animation-fill-mode: both;
-      animation-fill-mode: both; }
 
 .grid-container {
   position: absolute;
@@ -699,7 +685,7 @@ hr {
       font-weight: bold;
       height: 60px;
       line-height: 60px;
-      margin-top: 222px; }
+      margin-top: 150px; }
     .game-message .lower {
       display: block;
       margin-top: 29px; }
@@ -735,13 +721,6 @@ hr {
         display: inline-block; }
     .game-message.game-won, .game-message.game-over {
       display: block; }
-      .game-message.game-won p, .game-message.game-over p {
-        -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
-        -moz-animation: slide-up 1.5s ease-in-out 2500ms;
-        animation: slide-up 1.5s ease-in-out 2500ms;
-        -webkit-animation-fill-mode: both;
-        -moz-animation-fill-mode: both;
-        animation-fill-mode: both; }
       .game-message.game-won .mailing-list, .game-message.game-over .mailing-list {
         -webkit-animation: fade-in 1.5s ease-in-out 2500ms;
         -moz-animation: fade-in 1.5s ease-in-out 2500ms;

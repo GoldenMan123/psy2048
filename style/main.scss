@@ -264,7 +264,7 @@ hr {
       font-weight: bold;
       height: 60px;
       line-height: 60px;
-      margin-top: 222px;
+      margin-top: 150px;
       // height: $field-width;
       // line-height: $field-width;
     }
@@ -318,16 +318,6 @@ hr {
 
     &.game-won, &.game-over {
       display: block;
-
-      p {
-        @include animation(slide-up 1.5s ease-in-out $transition-speed * 25);
-        @include animation-fill-mode(both);
-      }
-
-      .mailing-list {
-        @include animation(fade-in 1.5s ease-in-out $transition-speed * 25);
-        @include animation-fill-mode(both);
-      }
     }
   }
 
@@ -917,7 +907,7 @@ hr {
     left: 20px;
     min-width: auto;
   }
-  
+
   &, p a {
     color: #a09488;
   }

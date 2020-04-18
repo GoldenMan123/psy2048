@@ -3,13 +3,10 @@ CACHE MANIFEST
 # Adds the ability to play the game offline.
 # The following comment needs to be updated whenever a change is made.
 # Run `rake appcache:update` to do so
-# Updated: 2019-01-13T21:16:00+01:00
+# Updated: 2020-04-18T17:25:24+03:00
 
 # Main page
 index.html
-
-# Privacy Page
-privacy.html
 
 # CSS
 style/main.css
@@ -25,12 +22,6 @@ style/fonts/ClearSans-Light-webfont.woff
 style/fonts/ClearSans-Regular-webfont.eot
 style/fonts/ClearSans-Regular-webfont.svg
 style/fonts/ClearSans-Regular-webfont.woff
-
-# Other resources
-meta/apple-touch-icon.png
-meta/icon_bitcoin.svg
-meta/icon_pp.svg
-meta/og_image.png
 
 # JavaScript
 js/animframe_polyfill.js
