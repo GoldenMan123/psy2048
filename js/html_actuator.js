@@ -72,6 +72,14 @@ HTMLActuator.prototype.addTile = function (tile) {
   img4 = "<img height=100% src=\"img/4.png\">";
   img8 = "<img height=100% src=\"img/8.png\">";
   img16 = "<img height=100% src=\"img/16.png\">";
+  img32 = "<img height=100% src=\"img/32.png\">";
+  img64 = "<img height=100% src=\"img/64.png\">";
+  img128 = "<img height=100% src=\"img/128.png\">";
+  img256 = "<img height=100% src=\"img/256.png\">";
+  img512 = "<img height=100% src=\"img/512.png\">";
+  img1024 = "<img height=100% src=\"img/1024.png\">";
+  img2048 = "<img height=100% src=\"img/2048.png\">";
+  img4096 = "<img height=100% src=\"img/4096.png\">";
 
   inner.classList.add("tile-inner");
   switch (tile.value) {
@@ -86,6 +94,30 @@ HTMLActuator.prototype.addTile = function (tile) {
 	break;
   case 16:
 	inner.innerHTML = img16;
+	break;
+  case 32:
+	inner.innerHTML = img32;
+	break;
+  case 64:
+	inner.innerHTML = img64;
+	break;
+  case 128:
+	inner.innerHTML = img128;
+	break;
+  case 256:
+	inner.innerHTML = img256;
+	break;
+  case 512:
+	inner.innerHTML = img512;
+	break;
+  case 1024:
+	inner.innerHTML = img1024;
+	break;
+  case 2048:
+	inner.innerHTML = img2048;
+	break;
+  case 4096:
+	inner.innerHTML = img4096;
 	break;
   default:
     inner.textContent = tile.value
